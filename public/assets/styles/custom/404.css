@@ -1,0 +1,26 @@
+.error-page {
+    width: 100%;
+    float: left;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: #26A69A url("/assets/images/bg-1.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.error-page .mesg {
+    width: 30%;
+    /* margin: 0px auto; */
+    /* position: relative; */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color:#fff;
+}

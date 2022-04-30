@@ -1,0 +1,16 @@
+/node_modules
+/public/images/bannerpics/
+/public/images/profilepics/
+/public/assets/app.js
+/public/assets/app.server.js
+/public/assets/header.server.js
+/server/config/secrets.js
+/nbproject/private/
+/public/assets/admin.js
+npm-debug.log
+.DS_Store
+.idea
+*.swp
+**/*.swp
+*.log
+*.pyc

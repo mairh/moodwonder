@@ -1,0 +1,21 @@
+body > .grid {
+	height: 100% !important;
+}
+.column {
+	max-width: 450px;
+}
+.yellow {
+	height: 54px;
+	border-radius: 2px!important;
+}
+.ui.image svg, .ui.image img {
+	float: left;
+}
+a.frgt {
+	color: #555459;
+	margin-right: 10px;
+}
+.loginpage .app, .loginpage .app .___iso-html___ , .loginpage .app .___iso-html___ .ui.middle.aligned.center.aligned.grid
+{
+ height: 100% !important;
+}

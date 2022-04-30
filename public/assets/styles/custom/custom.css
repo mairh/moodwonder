@@ -1,0 +1,339 @@
+/*!
+ * Custom css for developer
+ */
+
+.filepicker.dropzone{
+    display:none;
+}
+
+/* home page fixes */
+.home .ui.input input {
+    text-transform: none;
+}
+
+.home .ui.input input[type="text"] {
+    text-transform: none;
+}
+
+.home .ui.error.message, .home .ui.success.message {
+    box-shadow: none;
+    margin-left: 0;
+}
+
+/* css fix in eom page */
+.card .content .header a {
+    color: inherit;
+}
+
+.extra.content.voted {
+    background-color: #FBBD08 !important;
+    color: #fff !important;
+}
+
+.extra.content.voted .icon:before {
+    content: "\f00c" !important;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+    height: 200px;
+    object-fit: contain;
+    background: #fff;
+}
+
+.ui.tiny.images .image, .ui.tiny.images img, .ui.tiny.images svg, .ui.tiny.image {
+    height: 80px;
+    object-fit: cover;
+}
+.my-info .tiny.image {
+    border: 1px solid #ccc;
+}
+.my-info.teams {
+    margin: 10px 0;
+}
+
+/* Login page fixes */
+.ui.form .error.message, .ui.form .success.message, .ui.form .warning.message{
+    display: block;
+}
+
+
+/* Invite people winget */
+.invite-people .message.segment {
+    margin: 5px 0px 5px 0px;
+    box-shadow: none !important;
+}
+
+/* my profile - my team tab fix */
+.ui.small.form.team {
+    max-width: 100%;
+}
+
+#surveyParticipation {
+    width: 250px !important;
+}
+
+a i.write.icon {
+    cursor: pointer;
+}
+a i.add.circle.icon.large {
+    cursor: pointer;
+}
+
+/*
+ * my team tab UI fix
+ * UI fixes #15407
+*/
+label.column.email {
+    word-wrap: break-word;
+}
+
+.extra.content.disabled {
+    pointer-events: none;
+}
+.extra.content.disabled:hover {
+    background-color: inherit !important;
+    color: inherit !important;
+}
+
+/**** Bug fix : UI fixes #15484 *****/
+.ui.menu .ui.dropdown .menu > .item.drop-down-item {
+    padding: 0 !important;
+}
+.item.drop-down-item a {
+    padding: 0.71428571rem 1.14285714rem !important;
+    display: block;
+}
+/************************************/
+
+/*** Employee of the month winner ***/
+.extra.content.winner {
+    background-color: #FBBD08 !important;
+    color: #fff !important;
+}
+
+.extra.content.winner .icon:before {
+    content: "\f091" !important;
+}
+
+/* Start: button css */
+
+.ui.button {
+    /* background: none !important; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+.ui.button.toggle.active:hover {
+    background-color: #cb5234!important;
+    text-transform: uppercase;
+}
+.ui.orange.buttons .button, .ui.orange.button {
+    background-color: #eaae00;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    padding: 0 10px;
+    height: 35px;
+    webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+.home .ui.orange.button {
+    height: 50px;
+}
+.ui.orange.button {
+    box-shadow: none !important;
+}
+.ui.orange.buttons .button:hover, .ui.orange.button:hover {
+    /*background-color: #f44336;*/
+    background-color: #eaae00;
+    color: #fff;
+    text-shadow: none;
+}
+.ui.orange.buttons .button:focus, .ui.orange.button:focus {
+    background-color: #f44336;
+    color: #fff;
+    text-shadow: none;
+}
+.ui.orange.buttons .button:active, .ui.orange.button:active {
+    background-color: #f44336;
+    color: #fff;
+    text-shadow: none;
+}
+.ui.teal.buttons .button, .ui.teal.button {
+    background-color: #cb5234;
+}
+.ui.teal.buttons .button:hover, .ui.teal.button:hover {
+    background-color: #f44336;
+}
+.ui.teal.buttons .button:focus, .ui.teal.button:focus {
+    background-color: #f44336;
+}
+.ui.teal.buttons .button:active, .ui.teal.button:active {
+    background-color: #f44336;
+}
+.ui.teal.buttons .active.button, .ui.teal.buttons .active.button:active, .ui.teal.active.button, .ui.teal.button .active.button:active {
+    background-color: #f44336;
+}
+.ui.yellow.buttons .button, .ui.yellow.button {
+    background-color: #fbbd08 !important;
+    color: #555459;
+    text-shadow: none;
+    background-image: none;
+    width: 100px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+    padding:0.785714em 1.5em;
+
+}
+.ui.yellow.buttons .button:hover, .ui.yellow.button:hover {
+    background-color: #eaae00;
+    color: #555459;
+    text-shadow: none;
+    cursor: pointer;
+}
+.ui.yellow.buttons .button:focus, .ui.yellow.button:focus {
+    background-color: #f44336;
+    color: #fff;
+    text-shadow: none;
+}
+.ui.yellow.buttons .button:active, .ui.yellow.button:active {
+    background-color: #f44336;
+    color: #fff;
+    text-shadow: none;
+}
+.ui.positive.buttons .button, .ui.positive.button {
+    background-color:  #00897B!important;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+    webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+    padding: 14px 5px;
+    width:auto;
+}
+.ui.positive.button {
+    box-shadow: none !important;
+}
+.ui.positive.buttons .button:hover, .ui.positive.button:hover {
+    background-color: #00796B !important;
+}
+.ui.positive.buttons .button:focus, .ui.positive.button:focus {
+    background-color: #f44336;
+    color: #fff;
+    text-shadow: none;
+}
+.ui.positive.buttons .button:active, .ui.positive.button:active {
+    background-color: #f44336;
+    color: #fff;
+    text-shadow: none;
+}
+.ui.positive.buttons .active.button, .ui.positive.active.button, .ui.positive.buttons .active.button:active {
+    background-color: #26A69A;
+}
+.ui.buttons > .ui.button:not(.basic):not(.inverted), .ui.buttons:not(.basic):not(.inverted) > .button {
+    box-shadow: none !important;
+}
+.ble {
+    background-color: #3499e0 !important;
+}
+.ui.mwgrey.buttons .button, .ui.mwgrey.button {
+    background-color: #eceff1 !important;
+    color: #555459 !important;
+    text-shadow: none;
+    background-image: none;
+    width: 100px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+    padding:0.785714em 1.5em;
+
+}
+/* End : button css */
+
+/* Start : header css */
+.ui.header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.ui.header.ryt {
+    border: none;
+    margin-bottom: 0!important;
+    padding: 0em 0em 20px 0;
+    line-height: 1.2857em;
+    text-transform: none;
+    color: #26a69a;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.ui.header > .icon {
+    display: inline-block;
+    vertical-align: auto;
+}
+.ui.header .icon:only-child {
+    margin-right: auto;
+}
+.ui.dividing.header {
+    margin: 40px 0 30px 0!important;
+}
+.header-middle-container {
+    float: left;
+    padding: 20px 30px 20px 0;
+}
+.header-middle-container:last-child {
+    float: left;
+    padding: 20px 0px 20px 0;
+}
+.header-middle-container .ui.yellow.button {
+    width: auto!important;
+}
+.header-middle-container .ui.yellow.button {
+    padding: 0.785714em 0.5em !important;
+    width: auto !important;
+}
+/* End : header css */
+
+
+
+.praises_container .box{ background: #eaeaea; color: #333;}
+.praises_container .box .boxtite_bar{ background: #ddd; padding: 8px 5px;}
+.praises_container .box .boxtite_bar span{ display: inline-block; border-radius: 15px; background: #bdbdbd; padding: 1px 10px; font-size: 13px; color: #333;}
+.praises_container .box .boxtite_bar i{ float: right; color: #F05B71; font-size: 22px;}
+.praises_container .box .box_details{ padding: 10px; display: inline-block; width: 100%;}
+.praises_container .box .box_details .leave{ float: right; padding: 3px 10px; border-radius: 5px; color: #fff; background: #2BBAAA;}
+
+.profilebox .my-info span{ display: block;}
+.profilebox .my-info.teams span{ display: inline-block;}
+.profilebox .my-info img{ border: 3px solid #26A69A !important; width: 100px !important; height: 100px !important; margin: 0 0 10px;}
+.praises_container .showbtn{ background: #2BBAAA; color: #fff; display: block; margin: 0 auto}
+.invite-people {
+  background: #4db6ac none repeat scroll 0 0;
+}
+ @media screen and (min-width:768px) and (max-width:991px){
+    .praises_container .five.wide{ width: 50% !important;}
+ }
+
+  @media screen and (max-width:767px){
+    .praises_container .five.wide{ width: 100% !important;}
+ }

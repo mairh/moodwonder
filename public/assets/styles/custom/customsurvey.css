@@ -1,0 +1,5 @@
+.pushable > .pusher {
+    background: inherit;
+    min-height: 140% !important;
+    width: 100%;
+}

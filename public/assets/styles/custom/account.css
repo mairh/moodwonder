@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.profile-cover {
+	background: url(../../assets/images/cover.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 20px 20px;
+	text-align: center;
+	display: table;
+	height: 250px;
+	width: 100%;
+	position: relative;
+}
+.profile-cover h3 {
+	margin: 10px 0;
+}
+.margin-grid {
+	margin: -30px -33px 30px!important;
+}
+.ui.menu.account {
+	display: flex;
+	margin: -30px -30px 10px;
+	background: #E0E0E0 none repeat scroll 0% 0% !important;
+	height: 60px;
+	padding: 0 10px;
+}
+.ui.menu.account .ui.secondary.menu .active.item.act-menu {
+	box-shadow: none!important;
+	background: none!important;
+	color: #3a4351;
+	border-radius: none;
+	border-right: 1px solid #ccc;
+	border-radius: 0;
+	padding: 0 10px !important;
+}
+.act-menu {
+	box-shadow: none!important;
+	background: none!important;
+	color: #666!important;
+	border-radius: none!important;
+	border-right: 1px solid #666!important;
+	border-radius: 0!important;
+	padding: 0 20px !important;
+	margin: 0 0px!important;
+	text-transform: uppercase!important;
+	font-weight: normal!important;
+	font-size: 15px!important;
+}
+.act-menu:last-child {
+	box-shadow: none!important;
+	background: none!important;
+	color: #666!important;
+	border-radius: none!important;
+	border-right: none!important;
+	border-radius: 0!important;
+	padding: 0 20px !important;
+	margin: 0 0px!important;
+	text-transform: uppercase!important;
+}
+.act-menu.active {
+	box-shadow: none!important;
+	background: none!important;
+	color: #555459!important;
+	border-radius: none;
+	border-right: 1px solid #666;
+	border-radius: 0;
+	padding: 0 20px !important;
+	text-transform: uppercase!important;
+	font-weight: normal!important;
+	font-size: 15px!important;
+}
+.act-menu:hover {
+	box-shadow: none!important;
+	background: none!important;
+	color: #555459!important;
+	border-radius: none;
+	border-right: 1px solid #666;
+	border-radius: 0;
+	padding: 0 20px !important;
+	text-transform: uppercase!important;
+	font-weight: normal!important;
+	font-size: 15px!important;
+}
+.act-menu.active:last-child {
+	box-shadow: none!important;
+	background: none!important;
+	color: #555459!important;
+	border-radius: none;
+	border-right: none!important;
+	border-radius: 0;
+	padding: 0 20px !important;
+	text-transform: uppercase!important;
+}
+.width-act {
+	width: 83%;
+	margin-left: 17%;
+	top: 110px;
+	height: 100%;
+}
+.cancel {
+	background: #cb5234 !important;
+	color: #fff!important;
+}
+.submitt {
+	background: #4cb992 !important;
+	color: #fff!important;
+}
+.invite {
+	background: #3499e0 !important;
+	color: #fff!important;
+}
+.vote {
+	background: #cb5234 !important;
+	color: #fff!important;
+	height: 40px;
+	margin: 10px 0px!important;
+	transition: all 0.3s ease-out!important;
+}
+p.votes {
+	color: #555459!important;
+	background: rgba(255,255,255, 0.8);
+	padding: 4px 10px;
+	border-radius: 20px;
+	width: 100%!important;
+	max-width: 390px;
+}
+.total-votes {
+	color: #3499e0;
+	text-align: center;
+	margin: 4px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.vote:hover {
+	background: #f44336 !important;
+}
+.vote i.icon {
+	font-size: 18px;
+	color: #fff;
+}
+.dp-container .title h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #555459;
+}
+.dp-container .mail {
+	font-size: 14px;
+	color: #555459;
+	background: rgba(255,255,255, 0.4);
+	padding: 4px 10px;
+	border-radius: 20px;
+}
+.dp-container p {
+	color: rgb(255, 255, 255);
+	margin: 10px auto 0px;
+	width: 60%;
+	text-align: center;
+}
+.ui-segment-act {
+	padding: 14px!important;
+	border: 1px solid #ccc;
+}
+.dp-container {
+	vertical-align: middle;
+	display: table-cell;
+}
+.dp {
+	margin: 0 auto;
+	position: absolute;
+	padding: 0px 0;
+	border: 4px solid rgba(255, 255, 255, 0.6);
+	display: table-cell;
+	vertical-align: middle;
+}
+a.action {
+	float: right!important;
+}
+a.act-cover-image {
+	color: #fff!important;
+	top: 8%!important;
+	right: 20px;
+	position: absolute;
+	font-size: 20px;
+}
+.heading {
+	font-size: 18px;
+	padding: 0 10px;
+	color: #666;
+}
+.my-info {
+	width: 100%;
+	float: left;
+	margin: 20px 0;
+}
+.eom {
+	background: url(/assets/images/employee-of-the-month.png) no-repeat center center;
+	float: right;
+	width: 150px;
+	top: 20%;
+	right: 3%;
+	/* top: 10%; */
+	position: absolute;
+	/* background-color: #fff; */
+	height: 150px;
+}
+.eom p {
+	text-align: center;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 46px;
+	color: #FBBD08;
+}
+.sub {
+	-webkit-transition: border 1s ease;
+	-moz-transition: border 1s ease;
+	-o-transition: border 1s ease;
+	-ms-transition: border 1s ease;
+	transition: border 1s ease;
+	border: 1px solid #fff;
+	border-radius: 20px
+}
+.sub:hover {
+	cursor: pointer;
+	border: 1px solid #3499e0;
+	border-radius: 20px;
+}
+.sub .right {
+	text-align: right;
+	color: #cb5234 !important;
+	display: none!important;
+	transition: all 0.8s ease;
+}
+.sub:hover .right {
+	text-align: right;
+	color: #cb5234 !important;
+	display: block!important;
+}
+.cast .header {
+	color: #555459!important;
+}
+.cast .meta {
+	color: #666!important;
+	text-align: center!important;
+}
+.ui.progress .bar {
+	display: block;
+	line-height: 1;
+	position: relative;
+	width: 0;
+	min-width: 2em;
+	background: #4cb992 !important;
+	border-radius: 10px;
+	-webkit-transition: width .1s ease, background-color .1s ease;
+	transition: width .1s ease, background-color .1s ease;
+	text-align: right;
+	font-size: 11px;
+	line-height: 12px;
+	padding: 0 4px;
+}
+.ui.progress {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	border: none;
+	margin: 1em 0 2.5em;
+	box-shadow: none;
+	background: rgba(0,0,0,.1);
+	padding: 0;
+	border-radius: 10px;
+}
+.ui.progress .bar {
+	height: 12px;
+}
+.ui.progress>.label {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	right: auto;
+	left: 0;
+	bottom: auto;
+	font-size: 12px;
+	font-weight: 700;
+	text-shadow: none;
+	margin-top: 10px;
+	text-align: center;
+	-webkit-transition: color .4s ease;
+	transition: color .4s ease;
+	text-transform: uppercase;
+	color: #3499e0;
+}
+.cast .extra.content {
+	text-align: center;
+}
+.text-shadow{ text-shadow: 1px 1px 1px #555459;}
+p.votes {
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #555459 !important;
+    max-width: 390px;
+    padding: 4px 10px;
+    width: 100% !important;
+}

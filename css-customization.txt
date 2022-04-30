@@ -1,0 +1,17 @@
+=============================================
+/assets/styles/image.css
+
+.ui.tiny.images .image, .ui.tiny.images img, .ui.tiny.images svg, .ui.tiny.image
+height: 80px;
+object-fit: cover;
+
+
+
+=============================================
+/assets/styles/account.css
+
+.profile-cover
+background: url(../../assets/images/cover.jpg) no-repeat center center;
+
+
+==============================================

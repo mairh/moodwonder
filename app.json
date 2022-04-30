@@ -1,0 +1,10 @@
+{
+  "name": "Moodwonder",
+  "description": "A Moodwonder App",
+  "repository": "",
+  "logo": "",
+  "keywords": ["moodwonder", "mood"],
+  "addons" : [
+  	"mongohq"
+  ]
+}
