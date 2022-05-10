@@ -1,5 +1,8 @@
 # moodwonder
 
+![Moodwonder](./public/images/moodwonder-1.jpeg)
+
+![Moodwonder](./public/images/moodwonder-2.jpeg)
 
 ##Instructions
 
